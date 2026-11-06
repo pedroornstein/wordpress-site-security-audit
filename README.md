@@ -6,7 +6,7 @@ A cybersecurity portfolio project focused on documenting the security posture of
 
 **[Read the WordPress Security Audit (PDF)](blockzag-wordpress-audit.pdf)**
 
-The linked report is the primary project deliverable. Consult it for the documented scope, methodology, observations, and recommendations; this README does not independently validate or extend its findings.
+The linked PDF is the original retrospective report. **Read the [Historical Evidence and Methodology Addendum](HISTORICAL-EVIDENCE-ADDENDUM.md) alongside it**: the website was reportedly decommissioned in 2024 while the document lists completion in June 2025, and several historical technical/performance claims lack supporting artifacts here. The original report has been preserved unchanged.
 
 ## Why This Project Matters
 
@@ -16,7 +16,7 @@ Website security reviews require more than identifying potential issues: useful 
 
 ## Reading Guide
 
-1. Review the report's scope and any limitations before interpreting its observations.
+1. Read the [evidence addendum](HISTORICAL-EVIDENCE-ADDENDUM.md), then review the original report's scope and limitations.
 2. Distinguish observed conditions from inferred or potential risks.
 3. Evaluate recommendations in relation to risk, practicality, and available evidence.
 4. Do not interpret a portfolio report as a current security guarantee.
