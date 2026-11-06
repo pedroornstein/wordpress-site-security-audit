@@ -8,6 +8,8 @@ A cybersecurity portfolio project focused on documenting the security posture of
 
 The linked PDF is the original retrospective report. **Read the [Historical Evidence and Methodology Addendum](HISTORICAL-EVIDENCE-ADDENDUM.md) alongside it**: the website was reportedly decommissioned in 2024 while the document lists completion in June 2025, and several historical technical/performance claims lack supporting artifacts here. The original report has been preserved unchanged.
 
+For structured review of historical claims, see the [Evidence Review Checklist](EVIDENCE-REVIEW-CHECKLIST.md). It specifies what dated artifacts would be needed without implying any currently verified outcomes.
+
 ## Why This Project Matters
 
 Website security reviews require more than identifying potential issues: useful reporting explains scope, assesses risks in context, prioritizes next steps, and communicates findings to technical and nontechnical audiences.
