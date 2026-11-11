@@ -10,6 +10,10 @@ The linked PDF is the original retrospective report. **Read the [Historical Evid
 
 For structured review of historical claims, see the [Evidence Review Checklist](EVIDENCE-REVIEW-CHECKLIST.md). It specifies what dated artifacts would be needed without implying any currently verified outcomes.
 
+## Automated Document Integrity Check
+
+The [documentation-quality workflow](.github/workflows/docs-quality.yml) checks local Markdown links and compares the historical PDF's SHA-256 with the preserved November 11, 2026 baseline. It detects subsequent file changes; it does **not** authenticate the original report, prove its findings, or test a live website.
+
 ## Why This Project Matters
 
 Website security reviews require more than identifying potential issues: useful reporting explains scope, assesses risks in context, prioritizes next steps, and communicates findings to technical and nontechnical audiences.
