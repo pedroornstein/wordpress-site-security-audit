@@ -34,6 +34,12 @@ The PDF states that Blockzag.com was **decommissioned in 2024**, while also list
 - **Backups are not proven recoverable solely because a scheduled job exists.** Restoration requires validation of data integrity and operational recovery.
 - **The report does not quantify security risk reduction.** Performance improvement and security effectiveness are distinct measures.
 
+## Specific ambiguities in the original PDF
+
+- **Plugin count (page 2):** The report states that four outdated plugins were removed, but explicitly names only three: Slider Revolution, Contact Form 7, and Insert Headers and Footers. The fourth plugin, exact versions, removal dates and related CVEs are **not identified** in the PDF. This is a traceability gap, not proof that the count is false.
+- **Login-attempt limit (page 2):** The PDF says login attempts were limited to three via `.htaccess`, but it does not identify the Apache module, rate-limit rule, or WordPress plugin setting that implemented and enforced a three-*failed-login* threshold. An ordinary `.htaccess` rule does not by itself demonstrate application-aware login-failure counting. The mechanism and a dated negative test remain **unverified**. See [WordPress brute-force guidance](https://developer.wordpress.org/advanced-administration/security/brute-force/) and [Wordfence brute-force settings](https://www.wordfence.com/help/firewall/brute-force/).
+- **How to resolve:** Where authorized historical records exist, identify the fourth plugin and versions, attach redacted plugin/change logs, and name the responsible login-protection control with a dated configuration and test result. Otherwise present both as reported and unverified. Do not silently change the original PDF.
+
 ## Recommended verification if historical records are available
 
 1. Establish a timeline: website operation, security activities, decommissioning, and report-authoring dates.

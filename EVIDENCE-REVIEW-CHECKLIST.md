@@ -8,8 +8,9 @@ For each claim, record the **event date**, **artifact creation date**, **source/
 
 | Claim to investigate | Potential historical artifact | Review question | Status |
 | --- | --- | --- | --- |
-| Four plugins removed | Dated plugin inventories / change tickets | Can specific versions and removal dates be traced? | Not independently verified |
+| Four plugins removed (PDF names three) | Dated plugin inventory, versions and removal/change tickets | Which fourth plugin was removed, and when? | Count and inventory not independently verified |
 | MFA, firewall and login protections | Redacted settings export / dated test record | Was the control enabled for the stated accounts and dates? | Not independently verified |
+| Three-attempt login restriction attributed to `.htaccess` | Apache module/rule configuration or Wordfence settings and dated failed-login test | Which component actually enforced three failures, and was it tested? | Mechanism and enforcement not independently verified |
 | HTTPS/TLS | Dated certificate and configuration checks | What hostname, time and TLS settings were assessed? | Not independently verified |
 | WPScan / Security Ninja performed | Authorized scope and dated scanner outputs | Are tool versions, findings and limitations recorded? | Not independently verified |
 | Restore test | Dated restore logs and acceptance criteria | Was recovery tested and data integrity checked? | Not independently verified |
